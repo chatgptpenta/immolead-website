@@ -1,0 +1,23 @@
+{
+  "name": "immolead-website",
+  "version": "1.0.0",
+  "description": "ImmoLead Luxembourg Real Estate Lead Engine & Website",
+  "main": "server.js",
+  "scripts": {
+    "build": "echo Static build ready",
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test-endpoint.js"
+  },
+  "keywords": [
+    "immolead",
+    "luxembourg",
+    "real-estate",
+    "lead-engine"
+  ],
+  "author": "ImmoLead",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^10.2.1"
+  }
+}
